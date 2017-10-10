@@ -261,7 +261,7 @@ add_filter( 'theme_page_templates', 'shapely_exclude_page_templates' );
  * Enqueue scripts and styles.
  */
 function shapely_scripts() {
-	// Add Bootstrap default CSS
+	// Add Bootstrap default CSS.Agregando la libreria CSS Bootstrap
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
 
 	// Add Font Awesome stylesheet
@@ -353,4 +353,3 @@ require get_template_directory() . '/inc/class-shapely-related-posts.php';
  * Load the system checks ( used for notifications )
  */
 require get_template_directory() . '/inc/admin/welcome-screen/class-shapely-notify-system.php';
-
